@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/marco2012/ExpenseManager/precache-manifest.1f38f562d33c950bf62392a5c5fbcd17.js"
+  "/marco2012/ExpenseManager/precache-manifest.68742383e1e4203a27bc776656546174.js"
 );
 
 self.addEventListener('message', (event) => {
