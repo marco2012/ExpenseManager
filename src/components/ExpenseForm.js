@@ -72,7 +72,7 @@ class ExpenseForm extends React.Component {
                     />
 
                     <DayPickerInput
-                        inputProps={{ className: 'text-input' }}
+                        inputProps={{ className: 'text-input', id: 'calendar' }}
                         formatDate={formatDate}
                         parseDate={parseDate}
                         value={moment.unix(this.state.createdAt).format("MM/DD/YY")}

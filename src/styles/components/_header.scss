@@ -1,32 +1,18 @@
 .header {
-  background: #245a9d;
+  background: $dark-blue;
 }
+
 .header__content {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  padding: 0.1rem 0;
+  padding: $s-size 0;
 }
+
 .header__title {
   color: white;
   text-decoration: none;
   h1 {
     margin: 0;
   }
-}
-
-.page-header {
-  background: #f7f7f7;
-  margin-bottom: 4px;
-  padding: 2rem 0;
-}
-.page-header__title {
-  font-weight: 300;
-  margin: 0;
-}
-.page-header__title > span {
-  font-weight: bold;
-}
-.page-header__actions {
-  margin-top: 1.4rem;
 }

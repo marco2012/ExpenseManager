@@ -1,7 +1,7 @@
 // import "core-js/stable";
 // import "regenerator-runtime/runtime";
 import React from 'react';
-import './App.css';
+import './App.scss';
 import AppRouter from "./routers/AppRouter";
 import configureStore from "./store/configureStore";
 import {addExpense} from "./actions/expenses";

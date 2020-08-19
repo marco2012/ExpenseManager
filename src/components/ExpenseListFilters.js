@@ -9,15 +9,17 @@ class ExpenseListFilters extends React.Component {
     onDatesChange = ({startDate, endDate}) => {
         console.log(startDate, endDate)
     }
+    flexStyle = {flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'center'};
     render() {
         return (
             <div className="content-container">
                 <div className="input--group">
                     <div className="input--group__item">
                         <input
+                            size="12"
                             type="text"
                             className="text-input"
-                            placeholder="Search expenses"
+                            placeholder="Search"
                             value={this.props.filters.text}
                             onChange={(event) => {
                                 this.props.dispatch(setTextFilter(event.target.value));
@@ -27,6 +29,7 @@ class ExpenseListFilters extends React.Component {
                     <div className="input--group__item">
                         <select
                             className="select"
+                            id="sortSelect"
                             value={this.props.filters.sortBy}
                             onChange={(e) => {
                                 if (e.target.value === 'date') {

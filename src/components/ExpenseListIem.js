@@ -8,9 +8,10 @@ const ExpenseListIem = ({id, description, amount, createdAt}) => {
         <Link className="list-item" to={`/edit/${id}`}>
             <div className="flex-row">
                 <h3 className="list-item__title">{description}</h3>
-                <span className="list-item__subtitle">€{numeral(amount).format('€0,0.00')}</span>
+                <h3 className="list-item__sub-title">{moment.unix(createdAt).format("DD/MM/yy")}</h3>
             </div>
-            <h3 className="list-item__data">{moment.unix(createdAt).format("DD/MM/yy")}</h3>
+            <span className="list-item__data">€{numeral(amount).format('€0,0.00')}</span>
+
         </Link>
     )
 };
