@@ -1,0 +1,16 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 50px;
+  padding: 1.2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.select {
+  @extend .text-input;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+#notes {
+  height: 150px;
+}
+

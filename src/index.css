@@ -1,3 +1,13 @@
+@import "./styles/components/_button.scss";
+@import "./styles/components/_header.scss";
+@import "./styles/components/_content-container.scss";
+@import "./styles/components/_inputs.scss";
+@import "./styles/components/_visibility.scss";
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -1,0 +1,17 @@
+.button {
+  background: #1c88bf;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+}
+.button--link {
+  background: none;
+}
+.button--secondary{
+  background: #888;
+}

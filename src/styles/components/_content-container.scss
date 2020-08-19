@@ -1,0 +1,84 @@
+.content-container {
+  margin: 0 auto;
+  padding: 0 8rem 0 8rem;
+  max-width: 80rem;
+}
+
+#expenseList {
+  margin: 0 auto;
+  padding: 0 8rem 2rem 8rem;
+  max-width: 80rem;
+}
+
+.input--group {
+  display: flex;
+  flex-direction: row;
+  margin: 1.4rem 0;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-bottom: 1.8rem;
+  }
+}
+.input--group__item {
+  margin-right: 1.2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.form > * {
+  margin-bottom: 1.4rem;
+}
+.form__error {
+  margin: 0 0 1.2rem 0;
+  font-style: italic;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-border {
+  border: 1px solid #c6c6c6;
+}
+
+.list-header {
+  background: #ececec;
+  color: #707070;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.2rem 1.4rem;
+  font-weight: bold;
+}
+.list-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid darken(#c7c7c7, 7%);
+  border-top: none;
+  color: #353535;
+  padding: 1.2rem;
+  text-decoration: none;
+  transition: background .3s ease;
+}
+.list-item:hover{
+  background: #f3f3f3;
+}
+.list-item__title {
+  margin: 0;
+  word-break: break-all;
+}
+.list-item__subtitle {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.list-item__data{
+  margin: 1.2rem 0 0 0;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
