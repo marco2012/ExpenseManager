@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/marco2012/ExpenseManager",
   "name": "expense_manager",
+  "homepage": "https://marco2012.github.io/ExpenseManager/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
