@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/marco2012/ExpenseManager/static/css/main.ffc1973c.chunk.css",
+    "main.js": "/marco2012/ExpenseManager/static/js/main.321207a1.chunk.js",
+    "main.js.map": "/marco2012/ExpenseManager/static/js/main.321207a1.chunk.js.map",
+    "runtime-main.js": "/marco2012/ExpenseManager/static/js/runtime-main.48eb21ac.js",
+    "runtime-main.js.map": "/marco2012/ExpenseManager/static/js/runtime-main.48eb21ac.js.map",
+    "static/css/2.c6231af7.chunk.css": "/marco2012/ExpenseManager/static/css/2.c6231af7.chunk.css",
+    "static/js/2.ae678821.chunk.js": "/marco2012/ExpenseManager/static/js/2.ae678821.chunk.js",
+    "static/js/2.ae678821.chunk.js.map": "/marco2012/ExpenseManager/static/js/2.ae678821.chunk.js.map",
+    "index.html": "/marco2012/ExpenseManager/index.html",
+    "precache-manifest.202af3a2e0f2f252fc1dd52cf2216e61.js": "/marco2012/ExpenseManager/precache-manifest.202af3a2e0f2f252fc1dd52cf2216e61.js",
+    "service-worker.js": "/marco2012/ExpenseManager/service-worker.js",
+    "static/css/2.c6231af7.chunk.css.map": "/marco2012/ExpenseManager/static/css/2.c6231af7.chunk.css.map",
+    "static/css/main.ffc1973c.chunk.css.map": "/marco2012/ExpenseManager/static/css/main.ffc1973c.chunk.css.map",
+    "static/js/2.ae678821.chunk.js.LICENSE.txt": "/marco2012/ExpenseManager/static/js/2.ae678821.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48eb21ac.js",
+    "static/css/2.c6231af7.chunk.css",
+    "static/js/2.ae678821.chunk.js",
+    "static/css/main.ffc1973c.chunk.css",
+    "static/js/main.321207a1.chunk.js"
+  ]
+}
