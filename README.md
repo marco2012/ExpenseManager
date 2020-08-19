@@ -11,5 +11,7 @@ React web app to manage expenses. Uses Redux to manage state.
 Web app is live at [https://marco2012.github.io/ExpenseManager/](https://marco2012.github.io/ExpenseManager/) .
 
 <p align="center">
+<a href="https://marco2012.github.io/ExpenseManager/" target="_blank">
 <img width="80%" src="docs/home.png"/>
+</a>
 </p>
