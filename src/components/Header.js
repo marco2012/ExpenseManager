@@ -9,7 +9,7 @@ const Header = (props) => {
                     <Link className="header__title" to="/" >
                         <h1>ExpenseManager</h1>
                     </Link>
-                    <button className="button button--link">Login</button>
+                    <button className="button button--link">Logout</button>
                 </div>
             </div>
         </header>
